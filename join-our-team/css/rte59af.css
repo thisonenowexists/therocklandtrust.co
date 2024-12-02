@@ -1,0 +1,38 @@
+
+
+/**umb_name:Heading 1*/
+h1{}
+
+/**umb_name:Heading 2*/
+h2{}
+
+/**umb_name:Heading 3*/
+h3{}
+
+/**umb_name:Heading 4*/
+h4{}
+
+/**umb_name:Heading 5*/
+h5{font-weight: 400;}
+
+/**umb_name:img float left*/
+.imgFloatLeft {
+    float: left;
+    padding: 20px;
+    padding-left: 0px;
+}
+
+/**umb_name:img-float-right*/
+.imgFloatRight {
+    float: right;
+    padding: 20px;
+    padding-right: 0px;
+}
+@media screen and (max-width: 550px) {
+    .imgFloatLeft, .imgFloatRight {
+        padding: 20px 0px;
+        width: 100%;
+        text-align: center;
+    }
+}
+

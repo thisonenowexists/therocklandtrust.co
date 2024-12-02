@@ -1,0 +1,13 @@
+@import url('login/assets/css/main.css');
+@import url('login/plugins/perfect-scrollbar/perfect-scrollbar.css');
+@import url('login/assets/css/structure.css');
+/*
+    Importing highlight.js CSS code 
+
+    Just for demo purpose only
+	
+	@Note:-  monokai-sublime.css stylesheet is for highliting the code;
+
+*/
+
+@import 'login/plugins/highlight/styles/monokai-sublime.css';

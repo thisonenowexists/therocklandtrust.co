@@ -40,7 +40,7 @@ $('.widget-content .custom-width-padding-background').on('click', function() {
         width: 600,
         padding: "7em",
         customClass: "background-modal",
-        background: '#fff url(assets/img/sweet-bg.jpg) no-repeat 100% 100%',
+        background: '#fff url(../assets/img/sweet-bg.jpg) no-repeat 100% 100%',
     })
 })
 
@@ -122,7 +122,7 @@ $('.widget-content .custom-image').on('click', function() {
     swal({
         title: 'Sweet!',
         text: 'Modal with a custom image.',
-        imageUrl: 'assets/img/thumbs-up.jpg',
+        imageUrl: '../assets/img/thumbs-up.jpg',
         imageWidth: 400,
         imageHeight: 200,
         imageAlt: 'Custom image',

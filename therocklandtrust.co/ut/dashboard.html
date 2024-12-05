@@ -1959,21 +1959,15 @@ $0.00</p>
 <script src="plugins/dropify/dropify.min.js"></script>
 <script src="plugins/blockui/jquery.blockUI.min.js"></script>
 
+	<script>
+    $(document).ready(function() {
+        App.init();
+    });
+</script>
+
 
 <script src="assets/js/custom.js"></script>
-<script>
-    var data = null;
-    console.log(data);
-    function crypto_type(id){
-        for(var i =0; i < data.length; i++){
-            if(id == data[i].id){
-                $("#wallet_address").val(data[i].wallet_address);
-            }
-        }
-    }
-    var firstUpload = new FileUploadWithPreview('myFirstImage')
-</script>
-<!-- END GLOBAL MANDATORY SCRIPTS -->
+
 
 
 <!-- BEGIN PAGE LEVEL SCRIPTS -->
